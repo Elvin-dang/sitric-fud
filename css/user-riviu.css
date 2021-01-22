@@ -1,0 +1,3759 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow; */
+    /* background-color: blue; */
+    overflow: auto;
+}
+
+.container-j {
+    width: 90%;
+    height: 2490px;
+    background-color: wheat;
+    position: relative;
+    left: 5%;
+    overflow: hidden;
+}
+
+.footer {
+    position: fixed;
+    z-index: 1000;
+    overflow-y: hidden;
+}
+
+header {
+    width: 90%;
+    height: 25em;
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    z-index: 1;
+    padding-bottom: 2em;
+}
+
+.khung-avatar {
+    width: 100%;
+    height: 65%;
+    /* background-color: teal; */
+    position: absolute;
+    top: 025%;
+    z-index: 1001;
+    /* text-align: center; */
+    /* line-height: 20%; */
+}
+
+.khung-tron {
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+    /* background-color: white; */
+    position: absolute;
+    left: 47%;
+}
+
+.khung-tron img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.theodoi {
+    width: 8%;
+    height: 3.1em;
+    background-color: #d53d30;
+    border-radius: 25px;
+    float: right;
+    position: absolute;
+    right: 5%;
+    top: 2em;
+    line-height: 2.5em;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.theodoi:hover {
+    box-shadow: 0 10px 14px 0 rgba(87, 87, 87, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.11);
+    position: absolute;
+    top: 1.8em;
+}
+
+.thongtin b {
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    font-weight: 900;
+    font-size: 1.5em;
+    left: 47.5%;
+    top: 47%;
+}
+
+.hh {
+    width: 40%;
+    height: 1em;
+    position: absolute;
+    /* background-color: teal; */
+    left: 30%;
+    top: 65%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875em;
+}
+
+.theodoi-1 {
+    padding-right: 02em;
+}
+
+.linenha {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(179, 179, 179);
+    position: absolute;
+    left: 10%;
+    top: 86%;
+}
+
+.line-do {
+    width: 10%;
+    height: 2px;
+    background-color: #d53d30;
+    position: absolute;
+    left: 19%;
+    top: 86%;
+}
+
+.menu-hj ul {
+    width: 80%;
+    height: 4.5em;
+    /* background-color: green; */
+    position: absolute;
+    left: 10%;
+    bottom: -20%;
+    text-align: center;
+    padding-left: 10em;
+}
+
+.menu-hj li {
+    display: inline-block;
+    margin-right: 12em;
+    /* margin-left: 2.2em; */
+}
+
+.menu-hj ul li a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+.container-kk {
+    width: 80%;
+    height: 2390px;
+    /* background-color: brown; */
+    left: 10%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.khung-luutru {
+    width: 100%;
+    height: 100vh;
+    /* background-color: teal; */
+    position: relative;
+    /* z-index: 99999; */
+}
+
+.vang {
+    width: 100%;
+    height: 4em;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 44%;
+}
+
+.tron-tron {
+    width: 4em;
+    height: 4em;
+    /* background-color: aqua; */
+    border-radius: 3em;
+}
+
+.tron-tron img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vang b {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.vang p {
+    position: absolute;
+    left: 6%;
+    top: 58%;
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 500; */
+    font-size: 0.75em;
+    font-weight: initial;
+}
+
+.hinhbovao {
+    width: 40%;
+    height: 30%;
+    /* background-color: khaki; */
+    position: absolute;
+    top: 52%;
+    border-radius: 1em;
+    left: 06%;
+    /* background-image: url(); */
+}
+
+.hinhbovao img {
+    height: 110%;
+    /* height: 30%; */
+    position: absolute;
+    left: 0;
+    border-radius: 1em;
+}
+
+.text1-kk {
+    width: 50%;
+    height: 30%;
+    /* background-color: lawngreen; */
+    top: 52%;
+    left: 45%;
+    position: absolute;
+    text-align: left;
+}
+
+.text1-kk b {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+}
+
+.text1-kk p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875em;
+    /* margin-bottom: 1em; */
+    margin-top: 0.875em;
+}
+
+.khung-luutru-1 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    position: relative;
+    top: -2em;
+}
+
+.vang-1 {
+    width: 100%;
+    height: 4em;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0%;
+}
+
+.tron-tron-1 {
+    width: 4em;
+    height: 4em;
+    /* background-color: aqua; */
+    border-radius: 3em;
+}
+
+.tron-tron-1 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vang-1 b {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.vang-1 p {
+    position: absolute;
+    left: 6%;
+    top: 58%;
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 500; */
+    font-size: 0.75em;
+    font-weight: initial;
+}
+
+.hinhbovao-1 {
+    width: 40%;
+    height: 30%;
+    /* background-color: khaki; */
+    position: absolute;
+    top: 8%;
+    border-radius: 1em;
+    left: 06%;
+    /* background-image: url(); */
+}
+
+.hinhbovao-1 img {
+    height: 110%;
+    /* height: 30%; */
+    position: absolute;
+    left: 0;
+    border-radius: 1em;
+}
+
+.text1-kk-1 {
+    width: 50%;
+    height: 30%;
+    /* background-color: lawngreen; */
+    top: 8%;
+    left: 45%;
+    position: absolute;
+    text-align: left;
+}
+
+.text1-kk-1 b {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+}
+
+.text1-kk-1 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875em;
+    /* margin-bottom: 1em; */
+    margin-top: 0.875em;
+}
+
+.khung-luutru-2 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    position: relative;
+    top: -29em;
+}
+
+.vang-2 {
+    width: 100%;
+    height: 4em;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0%;
+}
+
+.tron-tron-2 {
+    width: 4em;
+    height: 4em;
+    /* background-color: aqua; */
+    border-radius: 3em;
+}
+
+.tron-tron-2 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vang-2 b {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.vang-2 p {
+    position: absolute;
+    left: 6%;
+    top: 58%;
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 500; */
+    font-size: 0.75em;
+    font-weight: initial;
+}
+
+.hinhbovao-2 {
+    width: 40%;
+    height: 30%;
+    /* background-color: khaki; */
+    position: absolute;
+    top: 8%;
+    border-radius: 1em;
+    left: 06%;
+    /* background-image: url(); */
+}
+
+.hinhbovao-2 img {
+    height: 110%;
+    /* height: 30%; */
+    position: absolute;
+    left: 0;
+    border-radius: 1em;
+}
+
+.text1-kk-2 {
+    width: 50%;
+    height: 30%;
+    /* background-color: lawngreen; */
+    top: 8%;
+    left: 45%;
+    position: absolute;
+    text-align: left;
+}
+
+.text1-kk-2 b {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+}
+
+.text1-kk-2 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875em;
+    /* margin-bottom: 1em; */
+    margin-top: 0.875em;
+}
+
+.khung-luutru-3 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    position: relative;
+    top: -53em;
+}
+
+.vang-3 {
+    width: 100%;
+    height: 4em;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0%;
+}
+
+.tron-tron-3 {
+    width: 4em;
+    height: 4em;
+    /* background-color: aqua; */
+    border-radius: 3em;
+}
+
+.tron-tron-3 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vang-3 b {
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.vang-3 p {
+    position: absolute;
+    left: 6%;
+    top: 58%;
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 500; */
+    font-size: 0.75em;
+    font-weight: initial;
+}
+
+.hinhbovao-3 {
+    width: 40%;
+    height: 30%;
+    /* background-color: khaki; */
+    position: absolute;
+    top: 8%;
+    border-radius: 1em;
+    left: 06%;
+    /* background-image: url(); */
+}
+
+.hinhbovao-3 img {
+    height: 110%;
+    /* height: 30%; */
+    position: absolute;
+    left: 0;
+    border-radius: 1em;
+}
+
+.text1-kk-3 {
+    width: 50%;
+    height: 30%;
+    /* background-color: lawngreen; */
+    top: 8%;
+    left: 45%;
+    position: absolute;
+    text-align: left;
+}
+
+.text1-kk-3 b {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+}
+
+.text1-kk-3 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875em;
+    /* margin-bottom: 1em; */
+    margin-top: 0.875em;
+}
+
+.pagination {
+    display: inline-block;
+    position: absolute;
+    bottom: 35%;
+    left: 42%;
+    right: 30%;
+    width: 25%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: transform .1s;
+}
+
+.pagination a.active {
+    transform: scale(1.7);
+    color: #d53d30;
+}
+
+.pagination a:hover:not(.active) {
+    transform: scale(1.7);
+    color: #d53d30;
+}
+
+.red {
+    color: #D53D30;
+    /* font-size: 900; */
+}
+
+@media only screen and (max-width: 1280px) {
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 1.5em;
+        left: 43.5%;
+        top: 47%;
+    }
+    .hh {
+        width: 40%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal; */
+        left: 32%;
+        top: 65%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+    }
+    .menu-hj ul {
+        width: 90%;
+        height: 4.5em;
+        /* background-color: green; */
+        position: absolute;
+        left: 2%;
+        bottom: -20%;
+        text-align: center;
+        padding-left: 10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 6em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+    }
+    .container-kk {
+        width: 80%;
+        height: 2390px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 44%;
+    }
+    .tron-tron {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang p {
+        position: absolute;
+        left: 8%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 52%;
+        border-radius: 1em;
+        left: 08%;
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 100%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 50%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 52%;
+        left: 60%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 75%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -2.5em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 8%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        left: 08%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 100%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 50%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 8%;
+        left: 60%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 75%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -31em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-2 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 8%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        left: 08%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 100%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 50%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 8%;
+        left: 60%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 75%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -56.5em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 8%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        left: 06%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 100%;
+        /* height: 30%; */
+        position: absolute;
+        left: 8%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 50%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 8%;
+        left: 60%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 75%;
+    }
+}
+
+
+/* kkakakkakakakakakka----------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+    .container-j {
+        width: 90%;
+        height: 3740px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    header {
+        width: 90%;
+        height: 27em;
+        background-color: wheat;
+        position: fixed;
+        top: 0;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 030%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 6.5em;
+        height: 6.5em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 47%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 1.5em;
+        left: 42%;
+        top: 40%;
+    }
+    .hh {
+        width: 40%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal; */
+        left: 33%;
+        top: 65%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+    }
+    .menu-hj ul {
+        width: 90%;
+        height: 4.5em;
+        /* background-color: green; */
+        position: absolute;
+        left: 2%;
+        bottom: -20%;
+        text-align: center;
+        padding-left: 10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 5em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+    }
+    .container-kk {
+        width: 80%;
+        height: 3600px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: -9em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 44%;
+    }
+    .tron-tron {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang p {
+        position: absolute;
+        left: 10%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 50%;
+        border-radius: 1em;
+        left: 00%;
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 88%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 75%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -7em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 10%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 44%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -42em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-2 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 44%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -78em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 10%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 43%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-j {
+        width: 90%;
+        height: 2810px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    header {
+        width: 90%;
+        height: 18em;
+        background-color: wheat;
+        position: fixed;
+        top: 3%;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 025%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 5em;
+        height: 5em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 45%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 1.2em;
+        left: 40%;
+        top: 46%;
+    }
+    .hh {
+        width: 50%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal; */
+        left: 25%;
+        top: 62%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.75em;
+    }
+    .menu-hj ul {
+        width: 100%;
+        height: 4.5em;
+        /* background-color: green; */
+        position: absolute;
+        left: -10%;
+        bottom: -25%;
+        text-align: center;
+        padding-left: 10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 3em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+    }
+    .container-kk {
+        width: 80%;
+        height: 2700px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: -6em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 42.5%;
+    }
+    .tron-tron {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 14%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang p {
+        position: absolute;
+        left: 14%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 50%;
+        border-radius: 1em;
+        /* left: %; */
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 120%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 87%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+        /* margin-top: 0.875em; */
+        width: 100%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -5.5em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 14%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 14%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 45.5%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.75em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -31em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -1em;
+    }
+    .tron-tron-2 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 14%;
+        top: 15%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 14%;
+        top: 60%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 43.5%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.75em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.75em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -58em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 4em;
+        height: 4em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 14%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 14%;
+        top: 58%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.75em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 7%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 120.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 44%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.75em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .linenha {
+        width: 80%;
+        height: 1.5px;
+        background-color: gray;
+        position: absolute;
+        left: 10%;
+        top: 78%;
+    }
+    .line-do {
+        width: 10%;
+        height: 1.5px;
+        background-color: #d53d30;
+        position: absolute;
+        left: 12%;
+        top: 78%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        right: 30%;
+        width: 25%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 08px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.875em;
+        transition: transform .1s;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container-j {
+        width: 90%;
+        height: 1950px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    .menu-hj ul {
+        width: 150%;
+        height: 1em;
+        /* background-color: green; */
+        position: absolute;
+        left: 0%;
+        top: 85%;
+        text-align: center;
+        left: -10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 1em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+        font-size: 0.6em;
+    }
+    header {
+        width: 90%;
+        height: 15em;
+        /* background-color: aquamarine; */
+        position: fixed;
+        top: 3%;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 032%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 3.2em;
+        height: 3.2em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 43%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 0.7em;
+        left: 38%;
+        top: 58%;
+    }
+    .hh {
+        width: 80%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal;s */
+        left: 10%;
+        top: 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.5em;
+    }
+    .container-kk {
+        width: 80%;
+        height: 1850px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: -2em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 42.5%;
+    }
+    .tron-tron {
+        width: 3em;
+        height: 3em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 18%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang p {
+        position: absolute;
+        left: 18%;
+        top: 48%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 60%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 51%;
+        border-radius: 1em;
+        /* left: %; */
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 79%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        /* margin-top: 0.875em; */
+        width: 100%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -4.5em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 3em;
+        height: 3em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 18%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 18%;
+        top: 50%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 36%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -24em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -1em;
+    }
+    .tron-tron-2 {
+        width: 3em;
+        height: 3em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 18%;
+        top: 15%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 18%;
+        top: 45%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 34%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.75em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -46em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 3em;
+        height: 3em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 18%;
+        top: 20%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 18%;
+        top: 50%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 37%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .linenha {
+        width: 80%;
+        height: 1px;
+        background-color: gray;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .line-do {
+        width: 10%;
+        height: 1px;
+        background-color: #d53d30;
+        position: absolute;
+        left: 15%;
+        top: 83%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        right: 30%;
+        width: 25%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 08px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.875em;
+        transition: transform .1s;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container-j {
+        width: 90%;
+        height: 1870px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    .menu-hj ul {
+        width: 150%;
+        height: 1em;
+        /* background-color: green; */
+        position: absolute;
+        left: 0%;
+        top: 85%;
+        text-align: center;
+        left: -10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 1em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+        font-size: 0.6em;
+    }
+    header {
+        width: 90%;
+        height: 15em;
+        /* background-color: aquamarine; */
+        position: fixed;
+        top: 3%;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 032%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 3.2em;
+        height: 3.2em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 43%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 0.7em;
+        left: 38%;
+        top: 58%;
+    }
+    .hh {
+        width: 80%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal;s */
+        left: 10%;
+        top: 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.5em;
+    }
+    .container-kk {
+        width: 80%;
+        height: 1800px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: -1.4em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 42.5%;
+    }
+    .tron-tron {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 15%;
+        top: 8%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang p {
+        position: absolute;
+        left: 15%;
+        top: 35%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 60%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 49%;
+        border-radius: 1em;
+        /* left: %; */
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 77%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        /* margin-top: 0.875em; */
+        width: 100%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -0.3em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 15%;
+        top: 8%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 15%;
+        top: 32%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 34%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -16em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -1em;
+    }
+    .tron-tron-2 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 15%;
+        top: 8%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 15%;
+        top: 33%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 4%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 32%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.75em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -33.5em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 15%;
+        top: 8%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 15%;
+        top: 32%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 34%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .linenha {
+        width: 80%;
+        height: 1px;
+        background-color: gray;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .line-do {
+        width: 10%;
+        height: 1px;
+        background-color: #d53d30;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        right: 30%;
+        width: 25%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 08px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.875em;
+        transition: transform .1s;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}
+
+
+/* kkakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk--------------------------------- */
+
+@media only screen and (height: 812px) {
+    .container-j {
+        width: 90%;
+        height: 2300px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    .menu-hj ul {
+        width: 150%;
+        height: 1em;
+        /* background-color: green; */
+        position: absolute;
+        left: 0%;
+        top: 85%;
+        text-align: center;
+        left: -10em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 1em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+        font-size: 0.6em;
+    }
+    header {
+        width: 90%;
+        height: 15em;
+        /* background-color: aquamarine; */
+        position: fixed;
+        top: 3%;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 032%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 3.2em;
+        height: 3.2em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 43%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 0.7em;
+        left: 38%;
+        top: 58%;
+    }
+    .hh {
+        width: 80%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal;s */
+        left: 10%;
+        top: 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.5em;
+    }
+    .container-kk {
+        width: 80%;
+        height: 1850px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: -4em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 42.5%;
+    }
+    .tron-tron {
+        width: 2.5em;
+        height: 2.5em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 18%;
+        top: 14%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang p {
+        position: absolute;
+        left: 18%;
+        top: 40%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 60%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 49%;
+        border-radius: 1em;
+        /* left: %; */
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 74%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 73%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+        /* margin-top: 0.875em; */
+        width: 100%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: -2em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -0%;
+    }
+    .tron-tron-1 {
+        width: 2.5em;
+        height: 2.5em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 18%;
+        top: 14%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 18%;
+        top: 44%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 6%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 74%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 30%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -21em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -1em;
+    }
+    .tron-tron-2 {
+        width: 2.5em;
+        height: 2.5em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 18%;
+        top: 15%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 18%;
+        top: 45%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 4%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 74%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 28%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.75em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -42em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 2.5em;
+        height: 2.5em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 18%;
+        top: 14%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 18%;
+        top: 43%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 7%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 74%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 30%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .linenha {
+        width: 80%;
+        height: 1px;
+        background-color: gray;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .line-do {
+        width: 10%;
+        height: 1px;
+        background-color: #d53d30;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        right: 30%;
+        width: 25%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 08px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.875em;
+        transition: transform .1s;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo {
+        left: 37.5%;
+    }
+    .navbar {
+        left: 37.5%;
+        top: 85%;
+    }
+    .navcc {
+        left: 0.1em;
+    }
+    .container-j {
+        width: 90%;
+        height: 1680px;
+        background-color: wheat;
+        position: relative;
+        left: 5%;
+        overflow: hidden;
+    }
+    .menu-hj ul {
+        width: 150%;
+        height: 1em;
+        /* background-color: green; */
+        position: absolute;
+        left: 0%;
+        top: 85%;
+        text-align: center;
+        left: -9em;
+    }
+    .menu-hj li {
+        display: inline-block;
+        margin-right: 1em;
+        /* margin-left: 2.2em; */
+    }
+    .menu-hj ul li a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+        font-size: 0.5em;
+    }
+    header {
+        width: 90%;
+        height: 15em;
+        /* background-color: aquamarine; */
+        position: fixed;
+        top: 3%;
+        left: 5%;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    .khung-avatar {
+        width: 100%;
+        height: 65%;
+        /* background-color: teal; */
+        position: absolute;
+        top: 030%;
+        z-index: 1001;
+        /* text-align: center; */
+        /* line-height: 20%; */
+    }
+    .khung-tron {
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: 42%;
+    }
+    .thongtin b {
+        font-family: 'Quicksand', sans-serif;
+        position: absolute;
+        font-weight: 900;
+        font-size: 0.7em;
+        left: 34%;
+        top: 56%;
+    }
+    .hh {
+        width: 80%;
+        height: 1em;
+        position: absolute;
+        /* background-color: teal;s */
+        left: 10%;
+        top: 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.5em;
+    }
+    .container-kk {
+        width: 80%;
+        height: 1850px;
+        /* background-color: brown; */
+        left: 10%;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .khung-luutru {
+        width: 100%;
+        height: 100vh;
+        /* background-color: teal; */
+        position: relative;
+        /* z-index: 99999; */
+        top: 1em;
+    }
+    .vang {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 42.5%;
+    }
+    .tron-tron {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang b {
+        position: absolute;
+        left: 18%;
+        top: 8%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang p {
+        position: absolute;
+        left: 18%;
+        top: 35%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao {
+        width: 60%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 50%;
+        border-radius: 1em;
+        /* left: %; */
+        /* background-image: url(); */
+    }
+    .hinhbovao img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        /* left: -20; */
+        border-radius: 1em;
+    }
+    .text1-kk {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 79%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk p {
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        /* margin-top: 0.875em; */
+        width: 100%;
+    }
+    .khung-luutru-1 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue; */
+        position: relative;
+        top: 1em;
+    }
+    .vang-1 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-1 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-1 b {
+        position: absolute;
+        left: 18%;
+        top: 10%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-1 p {
+        position: absolute;
+        left: 18%;
+        top: 35%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-1 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 8%;
+        border-radius: 1em;
+        /* left: 08%; */
+        left: 0;
+        /* background-image: url(); */
+    }
+    .hinhbovao-1 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-1 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 36%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-1 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-1 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .khung-luutru-2 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -13em;
+    }
+    .vang-2 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: -1em;
+    }
+    .tron-tron-2 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-2 b {
+        position: absolute;
+        left: 18%;
+        top: 10%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-2 p {
+        position: absolute;
+        left: 18%;
+        top: 36%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-2 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 5%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-2 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0;
+        border-radius: 1em;
+    }
+    .text1-kk-2 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 34%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-2 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-2 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.75em;
+        width: 95%;
+    }
+    .khung-luutru-3 {
+        width: 100%;
+        height: 100vh;
+        /* background-color: cornflowerblue; */
+        position: relative;
+        top: -28em;
+    }
+    .vang-3 {
+        width: 100%;
+        height: 4em;
+        /* background-color: yellow; */
+        position: absolute;
+        top: 0%;
+    }
+    .tron-tron-3 {
+        width: 2em;
+        height: 2em;
+        background-color: aqua;
+        border-radius: 3em;
+    }
+    .vang-3 b {
+        position: absolute;
+        left: 18%;
+        top: 10%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.7em;
+    }
+    .vang-3 p {
+        position: absolute;
+        left: 18%;
+        top: 35%;
+        font-family: 'Quicksand', sans-serif;
+        /* font-weight: 500; */
+        font-size: 0.5em;
+        font-weight: initial;
+    }
+    .hinhbovao-3 {
+        width: 40%;
+        height: 30%;
+        /* background-color: khaki; */
+        position: absolute;
+        top: 7%;
+        border-radius: 1em;
+        left: 0%;
+        /* background-image: url(); */
+    }
+    .hinhbovao-3 img {
+        height: 90.5%;
+        /* height: 30%; */
+        position: absolute;
+        left: 0%;
+        border-radius: 1em;
+    }
+    .text1-kk-3 {
+        width: 100%;
+        height: 30%;
+        /* background-color: lawngreen; */
+        top: 37%;
+        left: 0%;
+        position: absolute;
+        text-align: left;
+    }
+    .text1-kk-3 b {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+        /* margin-bottom: 1em; */
+    }
+    .text1-kk-3 p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.6em;
+        /* margin-bottom: 1em; */
+        margin-top: 0.875em;
+        width: 95%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 35%;
+        left: 36%;
+        /* right: 30%; */
+        width: 25%;
+        top: 20%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 12px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        transition: transform .1s;
+        font-size: 01em;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .linenha {
+        width: 80%;
+        height: 1px;
+        background-color: gray;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .line-do {
+        width: 10%;
+        height: 1px;
+        background-color: #d53d30;
+        position: absolute;
+        left: 10%;
+        top: 83%;
+    }
+    .theodoi {
+        width: 8%;
+        height: 3.2em;
+        background-color: #d53d30;
+        border-radius: 25px;
+        float: right;
+        position: absolute;
+        right: 5%;
+        top: 2em;
+        line-height: 2.5em;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .pagination {
+        display: inline-block;
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        right: 30%;
+        width: 25%;
+    }
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 08px;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 0.875em;
+        transition: transform .1s;
+    }
+    .pagination a.active {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+    .pagination a:hover:not(.active) {
+        transform: scale(1.7);
+        color: #d53d30;
+    }
+}

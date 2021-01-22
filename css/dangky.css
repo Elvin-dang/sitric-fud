@@ -1,0 +1,746 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-j {
+    width: 90%;
+    height: 90vh;
+    /* background-color: blue; */
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.container-j b {
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    word-spacing: -0.2em;
+    color: #d53d30;
+}
+
+.formdn {
+    width: 45%;
+    height: 4em;
+    background-color: white;
+    border-radius: 10em;
+    position: absolute;
+    border: none;
+    font-family: robo;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.a1 {
+    position: absolute;
+    left: 27.5%;
+    top: 30%;
+}
+
+.a2 {
+    position: absolute;
+    left: 27.5%;
+    top: 41%;
+}
+
+.a3 {
+    position: absolute;
+    left: 27.5%;
+    top: 52%;
+}
+
+.social-dn ul {
+    width: 20%;
+    height: 10%;
+    /* background-color: violet; */
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    top: 13%;
+    padding-top: 1.8%;
+}
+
+.social-dn li {
+    display: inline-block;
+    /* margin-left:1.5em; */
+    color: #d53d30;
+}
+
+.bb {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.uu {
+    font-size: 2em;
+}
+
+.container-j a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 0.875em;
+    position: absolute;
+    top: 60%;
+    left: 46.2%;
+    color: blue;
+}
+
+.btn1 {
+    background-color: #e1bb3b;
+    border: none;
+    /* color: white; */
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 45px;
+    position: absolute;
+    left: 43.5%;
+    top: 65%;
+    transition: 0.2s;
+    font-size: 1.25em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    word-spacing: 0em;
+    color: #d53d30;
+}
+
+.btn1:hover {
+    box-shadow: 0 10px 14px 0 rgba(87, 87, 87, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.11);
+    position: absolute;
+    top: 63%;
+}
+
+.dk-1 {
+    width: 80%;
+    height: 10%;
+    /* background-color: blue; */
+    position: absolute;
+    left: 10%;
+    font-size: 0.875em;
+    font-family: 'Quicksand', sans-serif;
+    bottom: 15%;
+    font-weight: 900;
+    top: 23%;
+    word-spacing: 5px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 3em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 20%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 40%;
+        text-align: center;
+        top: 14%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .formdn {
+        width: 50%;
+        height: 4em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+    }
+    .a1 {
+        position: absolute;
+        left: 25%;
+        top: 30%;
+    }
+    .a2 {
+        position: absolute;
+        left: 25%;
+        top: 41%;
+    }
+    .a3 {
+        position: absolute;
+        left: 25%;
+        top: 52%;
+    }
+    .nut {
+        width: 15%;
+        /* height: 3.5em; */
+        background-color: #e1bb3b;
+        line-height: 3.5em;
+        border-radius: 10em;
+        position: absolute;
+        left: 43.5%;
+        top: 63%
+    }
+    .nut b {
+        font-size: 1.25em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 15%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 3em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 30%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 35%;
+        text-align: center;
+        top: 18%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .dk-1 {
+        width: 80%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 10%;
+        font-size: 0.875em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 25%;
+        word-spacing: 5px;
+    }
+    .formdn {
+        width: 60%;
+        height: 4em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+    }
+    .a1 {
+        position: absolute;
+        left: 20%;
+        top: 30%;
+    }
+    .a2 {
+        position: absolute;
+        left: 20%;
+        top: 37%;
+    }
+    .a3 {
+        position: absolute;
+        left: 20%;
+        top: 44%;
+    }
+    .nut {
+        width: 20%;
+        /* height: 3.5em; */
+        background-color: #e1bb3b;
+        line-height: 3.5em;
+        border-radius: 10em;
+        position: absolute;
+        left: 40%;
+        top: 52%
+    }
+    .nut b {
+        font-size: 1.25em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 15%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 2.5em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 35%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 32.5%;
+        text-align: center;
+        top: 19%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .dk-1 {
+        width: 80%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 10%;
+        font-size: 0.875em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 25%;
+        word-spacing: 5px;
+    }
+    .formdn {
+        width: 70%;
+        height: 3em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        /* top:30%; */
+    }
+    .a1 {
+        position: absolute;
+        left: 15%;
+        top: 32%;
+    }
+    .a2 {
+        position: absolute;
+        left: 15%;
+        top: 39%;
+    }
+    .a3 {
+        position: absolute;
+        left: 15%;
+        top: 46%;
+    }
+    .uu {
+        font-size: 1.5em;
+    }
+    .nut {
+        width: 25%;
+        height: 3em;
+        background-color: #e1bb3b;
+        line-height: 3em;
+        border-radius: 10em;
+        position: absolute;
+        left: 37.5%;
+        top: 54%
+    }
+    .nut b {
+        font-size: 1.25em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+    .dk-1 {
+        width: 80%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 10%;
+        font-size: 0.875em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 26%;
+        word-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 23%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 1.5em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 45%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 27.5%;
+        text-align: center;
+        top: 20%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .formdn {
+        width: 80%;
+        height: 2em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        /* top:30%; */
+    }
+    .a1 {
+        position: absolute;
+        left: 10%;
+        top: 34%;
+    }
+    .a2 {
+        position: absolute;
+        left: 10%;
+        top: 41%;
+    }
+    .a3 {
+        position: absolute;
+        left: 10%;
+        top: 48%;
+    }
+    .uu {
+        font-size: 1em;
+    }
+    .nut {
+        width: 40%;
+        height: 2.5em;
+        background-color: #e1bb3b;
+        line-height: 2.5em;
+        border-radius: 10em;
+        position: absolute;
+        left: 30%;
+        top: 56%
+    }
+    .nut b {
+        font-size: 1.25em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+    .dk-1 {
+        width: 90%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        font-size: 0.7em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 26%;
+        word-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 23%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 1.5em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 45%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 27.5%;
+        text-align: center;
+        top: 20%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .formdn {
+        width: 90%;
+        height: 2.5em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        font-size: 0.75em;
+        /* top:30%; */
+    }
+    .a1 {
+        position: absolute;
+        left: 5%;
+        top: 34%;
+    }
+    .a2 {
+        position: absolute;
+        left: 5%;
+        top: 41%;
+    }
+    .a3 {
+        position: absolute;
+        left: 5%;
+        top: 48%;
+    }
+    .uu {
+        font-size: 1em;
+    }
+    .nut {
+        width: 40%;
+        height: 2.5em;
+        background-color: #e1bb3b;
+        line-height: 2.5em;
+        border-radius: 10em;
+        position: absolute;
+        left: 30%;
+        top: 56%
+    }
+    .nut b {
+        font-size: 1.25em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+    .dk-1 {
+        width: 90%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        font-size: 0.7em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 26%;
+        word-spacing: 5px;
+    }
+}
+
+@media only screen and (height: 812px) {
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 30%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 1.2em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo {
+        left: 37.5%;
+    }
+    .navbar {
+        left: 37.5%;
+        top: 85%;
+    }
+    .navcc {
+        left: 5%;
+        bottom: -5%;
+    }
+    .container-j {
+        width: 90%;
+        height: 90vh;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        padding-top: 22%;
+        text-align: center;
+    }
+    .container-j b {
+        font-size: 1.5em;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 900;
+        word-spacing: -0.2em;
+        color: #d53d30;
+    }
+    .social-dn ul {
+        width: 45%;
+        height: 10%;
+        /* background-color: violet; */
+        position: absolute;
+        left: 27.5%;
+        text-align: center;
+        top: 21%;
+        padding-top: 1.8%;
+    }
+    .social-dn li {
+        display: inline-block;
+        /* margin-left:1.5em; */
+        color: #d53d30;
+    }
+    .formdn {
+        width: 90%;
+        height: 2.5em;
+        background-color: white;
+        border-radius: 10em;
+        position: absolute;
+        border: none;
+        font-family: robo;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        font-size: 0.6em;
+        /* top:30%; */
+    }
+    .a1 {
+        position: absolute;
+        left: 5%;
+        top: 34%;
+    }
+    .a2 {
+        position: absolute;
+        left: 5%;
+        top: 41%;
+    }
+    .a3 {
+        position: absolute;
+        left: 5%;
+        top: 48%;
+    }
+    .uu {
+        font-size: 1em;
+    }
+    .nut {
+        width: 45%;
+        height: 2em;
+        background-color: #e1bb3b;
+        line-height: 2em;
+        border-radius: 10em;
+        position: absolute;
+        left: 27.5%;
+        top: 56%
+    }
+    .nut b {
+        font-size: 1em;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        word-spacing: 0em;
+    }
+    .nut:hover {
+        box-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        transition-duration: 0.3s;
+    }
+    .dk-1 {
+        width: 90%;
+        height: 10%;
+        /* background-color: blue; */
+        position: absolute;
+        left: 5%;
+        font-size: 0.5em;
+        font-family: 'Quicksand', sans-serif;
+        bottom: 15%;
+        font-weight: 900;
+        top: 27%;
+        word-spacing: 5px;
+    }
+}
