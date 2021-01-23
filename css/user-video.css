@@ -188,6 +188,9 @@ header {
     /* overflow: hidden; */
 }
 
+.pic-1, .pic-2, .pic-3, .pic-4, .pic-5, .pic-6, .pic-7, .pic-8, .pic-8a, .pic-9{
+    border-radius: 25px;
+}
 .take_1 {
     width: 100%;
     height: 100vh;
@@ -203,7 +206,7 @@ header {
     left: 0;
     width: 48%;
     float: left;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .take_1 .pic-2 {
@@ -224,7 +227,7 @@ header {
 .take_2 .pic-3 {
     width: 48%;
     float: left;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 20%;
     /* top:4%; */
 }
@@ -247,7 +250,7 @@ header {
 .take_3 .pic-5 {
     width: 48%;
     float: left;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 77%;
     /* top:4%; */
 }
@@ -270,7 +273,7 @@ header {
 .take_4 .pic-7 {
     width: 48%;
     float: left;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 129%;
     /* top:4%; */
 }

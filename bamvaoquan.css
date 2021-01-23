@@ -628,6 +628,11 @@ input {
     color: #363636;
 }
 
+.phai a {
+    color: #494949;
+    text-decoration: none;
+}
+
 .khung-btn .btn1 {
     background-color: #d53d30;
     border: none;

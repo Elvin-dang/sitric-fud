@@ -10,7 +10,7 @@
     /* background-color: blue; */
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 13%;
     padding-top: 3%;
     text-align: center;
 }
@@ -81,16 +81,23 @@
     bottom: 45%;
 }
 
-.container-j a {
+.qmk-a{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 0.875em;
     position: absolute;
-    top: 60%;
-    left: 46.2%;
+    top: 61%;
+    left: 46%;
     color: blue;
+    text-decoration: none;
+    /* background: rebeccapurple; */
 }
 
+.qmk-a:hover{
+    text-decoration: underline;
+    font-weight: 900;;
+    
+}
 .btn1 {
     background-color: #e1bb3b;
     border: none;
@@ -120,15 +127,15 @@
     top: 63%;
 }
 
-.dk-1 {
-    width: 80%;
-    height: 10%;
-    /* background-color: blue; */
-    position: absolute;
-    left: 10%;
-    font-size: 0.875em;
-    font-family: 'Quicksand', sans-serif;
-    bottom: 15%;
+.dk-a{
+    color: #d53d30;
+    /* background: powderblue; */
+    font-size: 1em; 
+    width: 20%;
+    text-decoration: none;
+}
+.dk-a:hover{
+    text-decoration: underline;
     font-weight: 900;
 }
 
@@ -153,7 +160,7 @@
         line-height: 3.5em;
         border-radius: 10em;
         position: absolute;
-        left: 42.5%;
+        left: 43.5%;
         top: 65%
     }
     .container-j a {
@@ -260,12 +267,12 @@
         left: 5%;
         top: 47%;
     }
-    .container-j a {
+    .qmk-a {
         font-family: 'Quicksand', sans-serif;
         font-weight: 600;
         font-size: 1em;
         position: absolute;
-        top: 50%;
+        top: 80%;
         left: 42.2%;
         color: blue;
     }
@@ -279,14 +286,24 @@
         left: 37.5%;
         top: 55%
     }
-    .dk-1 {
-        font-size: 1em;
-        top: 63%;
-    }
+
     .nut b {
         font-size: 1.2em;
     }
+
+    .dk-a{
+        color: #d53d30;
+        /* background: powderblue; */
+        font-size: 1em; 
+        width: 20%;
+        text-decoration: none;
+    }
+    .dk-a:hover{
+        text-decoration: underline;
+        font-weight: 900;
+    }
 }
+
 
 @media only screen and (max-width: 768px) {
     body {
@@ -356,7 +373,7 @@
         left: 10%;
         top: 47%;
     }
-    .container-j a {
+    .qmk-a {
         font-family: 'Quicksand', sans-serif;
         font-weight: 600;
         font-size: 0.875em;
@@ -381,15 +398,15 @@
         font-weight: 900;
         word-spacing: 0em;
     }
-    .dk-1 {
-        width: 80%;
-        height: 10%;
-        /* background-color: blue; */
-        position: absolute;
-        left: 10%;
-        font-size: 0.875em;
-        font-family: 'Quicksand', sans-serif;
-        bottom: 24%;
+    .dk-a{
+        color: #d53d30;
+        /* background: powderblue; */
+        font-size: 1em; 
+        width: 20%;
+        text-decoration: none;
+    }
+    .dk-a:hover{
+        text-decoration: underline;
         font-weight: 900;
     }
 }
@@ -571,14 +588,21 @@
         left: 30%;
         top: 53%
     }
-    .dk-1 {
-        font-size: 0.7em;
-        top: 63%;
+    .dk-a{
+        color: #d53d30;
+        /* background: powderblue; */
+        font-size: 1em; 
+        width: 20%;
+        text-decoration: none;
+    }
+    .dk-a:hover{
+        text-decoration: underline;
+        font-weight: 900;
     }
     .nut b {
         font-size: 0.875em;
     }
-    .container-j a {
+    .qmk-a {
         font-family: 'Quicksand', sans-serif;
         font-weight: 600;
         font-size: 0.75em;
@@ -653,7 +677,7 @@
         word-spacing: -0.2em;
         color: #d53d30;
     }
-    .container-j a {
+    .qml-a {
         font-family: 'Quicksand', sans-serif;
         font-weight: 600;
         font-size: 0.5em;
@@ -672,9 +696,16 @@
         left: 25%;
         top: 53%
     }
-    .dk-1 {
-        font-size: 0.6em;
-        top: 65%;
+    .dk-a{
+        color: #d53d30;
+        /* background: powderblue; */
+        font-size: 1em; 
+        width: 20%;
+        text-decoration: none;
+    }
+    .dk-a:hover{
+        text-decoration: underline;
+        font-weight: 900;
     }
     .nut b {
         font-size: 0.875em;
